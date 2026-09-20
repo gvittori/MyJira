@@ -1,0 +1,6 @@
+{
+  "name": "Jira Agile Suite",
+  "description": "Full-featured Jira clone with Kanban boards, issue tracking, customizable sprint planning, and epic-level roadmapping tools powered by AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
