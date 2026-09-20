@@ -2,7 +2,7 @@ name: Deploy Vite App to Pages
 
 on:
   push:
-    branches: [ main ] # Change to 'master' if your repo uses master as the default branch
+    branches: [ main ] # or master, depending on your repo default branch
 
 permissions:
   contents: read
@@ -27,7 +27,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
 
       - name: Install Dependencies
         run: npm install
